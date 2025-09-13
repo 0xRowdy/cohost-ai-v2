@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "convex": {
+      "command": "npx",
+      "args": ["-y", "convex@latest", "mcp", "start"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "stripe": {
+      "command": "npx",
+      "args": ["-y", "@stripe/mcp", "--tools=all"],
+      "env": {
+        "STRIPE_SECRET_KEY": ""
+      }
+    },
+    "archon": {
+      "command": "npx",
+      "args": ["mcp-remote", "http://localhost:8051/mcp"]
+    }
+  }
+}
