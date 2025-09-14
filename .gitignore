@@ -21,3 +21,10 @@ yarn.lock
 /blob-report/
 /playwright/.cache/
 .tanstack
+
+# Secret files
+secret*
+*.secret
+*secret*
+*.key
+*.pem
