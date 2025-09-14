@@ -3,6 +3,7 @@ package-lock.json
 yarn.lock
 
 .vscode
+.mcp.json
 
 .DS_Store
 .cache
